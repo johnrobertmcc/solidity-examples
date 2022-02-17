@@ -117,7 +117,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/2_Simple_Coin.sol": "SimpleCoin"
+			"contracts/4_Modifiers.sol": "SimpleCoin"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -131,11 +131,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/2_Simple_Coin.sol": {
-			"keccak256": "0x551e5f33c1169aa8ed7422cda915dc4d07c3db5e34830d6220e455e8db24abfd",
+		"contracts/4_Modifiers.sol": {
+			"keccak256": "0xbd9747f40a33f86fc26c84ef40f0c91cb3c12280a7416d482230d1a1f475b56d",
 			"urls": [
-				"bzz-raw://8011bd73b0a007767d53b396d3ab32e4261149f28fd0ca40968e4f5728d02daa",
-				"dweb:/ipfs/Qmadqo7sbAtKGvNo9YUe4RDnQqCfDB1bev5S8EAniuf2pq"
+				"bzz-raw://04230203bdce15af3f2654109891ee3ad90957b36d6f7a8543d2c8beaf5c3ee9",
+				"dweb:/ipfs/QmfZLE14BAfTDiej8mV3ARguFP1gACg4od33xFdn73zfAd"
 			]
 		}
 	},
