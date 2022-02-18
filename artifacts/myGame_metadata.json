@@ -6,6 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "dealer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -18,25 +36,32 @@
 						"type": "string"
 					}
 				],
-				"name": "addPlayer",
+				"name": "joinGame",
 				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "playerAddress",
+						"name": "loserAddress",
 						"type": "address"
 					}
 				],
-				"name": "getPlayerLevel",
+				"name": "payOutWinners",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payableAmount",
 				"outputs": [
 					{
-						"internalType": "enum myGame.Level",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -84,6 +109,63 @@
 						"internalType": "string",
 						"name": "lastName",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "createdTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "playersInGame",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "playerAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "enum myGame.Level",
+						"name": "playerLevel",
+						"type": "uint8"
+					},
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "createdTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pot",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -118,10 +200,10 @@
 	},
 	"sources": {
 		"contracts/3_Data_Types.sol": {
-			"keccak256": "0x58a5f63ac65b25d44769a59b05944440076ae8c917b3cf6e987a04b9cafb0f3b",
+			"keccak256": "0x1f8caeb933ac5b7e140f7380bbe7cd8c72ac7f735fd8734c6cd11b217de6ca56",
 			"urls": [
-				"bzz-raw://1ae86763d2e438e74004115a4abc93ef943add42aecdbbee3cc8636c4fc53294",
-				"dweb:/ipfs/QmZmJR6FnPyfiTZeZ4sJDCfDFmshBZXt4HG6iGAr5pJAJY"
+				"bzz-raw://557c35bc9be851bd9b58906f0328b69956e3a8820ee5ceb0f3ce020ef36d9357",
+				"dweb:/ipfs/QmPXSTf6UHMrhotaxdyQ6ymPah7ct1Rj2fgm8tdormdSSr"
 			]
 		}
 	},

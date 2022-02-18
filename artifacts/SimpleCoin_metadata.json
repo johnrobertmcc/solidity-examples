@@ -132,10 +132,10 @@
 	},
 	"sources": {
 		"contracts/4_Modifiers.sol": {
-			"keccak256": "0xbd9747f40a33f86fc26c84ef40f0c91cb3c12280a7416d482230d1a1f475b56d",
+			"keccak256": "0x6aa35a922f7a6622bf530fa01f4bae12a28609df1ab5c79c390f8d61b344a791",
 			"urls": [
-				"bzz-raw://04230203bdce15af3f2654109891ee3ad90957b36d6f7a8543d2c8beaf5c3ee9",
-				"dweb:/ipfs/QmfZLE14BAfTDiej8mV3ARguFP1gACg4od33xFdn73zfAd"
+				"bzz-raw://8bd838ad8b4074373a9b372b4078e3a4ec280039f2119b6e259a67d51772150b",
+				"dweb:/ipfs/QmPy32PP83HsKyyZ3HPPcRi9xoxg93dCjs4yZsQNpvnEch"
 			]
 		}
 	},
